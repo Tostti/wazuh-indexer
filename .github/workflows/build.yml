@@ -56,13 +56,6 @@ on:
         description: "Checksum ?"
         type: boolean
         default: false
-    secrets:
-      CI_INTERNAL_DEVELOPMENT_BUCKET_USER_ACCESS_KEY:
-        required: true
-        description: "AWS user access key"
-      CI_INTERNAL_DEVELOPMENT_BUCKET_USER_SECRET_KEY:
-        required: true
-        description: "AWS user secret key"
 
 # ==========================
 # Bibliography
